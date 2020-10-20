@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <h1>Assignment 1</h1>
-      <UserInput inputUsername={usernameHandler} />
+      <UserInput inputUsername={usernameHandler} name={usernameState} />
       <UserOutput username1="PrincessChloe2017" username2={usernameState} />
       <UserOutput username1="Username 3" username2="Username 4" />
     </div>
