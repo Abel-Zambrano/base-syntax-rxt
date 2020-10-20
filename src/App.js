@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <h1>Assignment 1</h1>
       <UserInput />
-      <UserOutput />
+      <UserOutput username="PrincessChloe2017" />
     </div>
   );
 }
